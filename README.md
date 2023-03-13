@@ -21,11 +21,12 @@ Using Jenkin to set up CI system and Jenkins' Robot Framework plugin (https://pl
 - Intellibot (https://github.com/mtrubs/intellibot)
 
 
-<h3> How to develope and use automation test scripts </h3/
+<h3> How to develope and use automation test scripts </h3>
 
 1. Clone the project
 2. Import the Project in PyCharm
 3. Setupt Env variable PATH to directory of Robot Framework (sample dir: ..\Programs\Python\Python38\Scripts  )
-4. Setting upload file for test data:  Open file ../Resources/PageObject/TestData/Testdata.py ; Set AddFile variable to path of upload file (for example AddFile =  "C:/_STYL/Projects/UploadFileAutomation/Resources/Upload/rose.jpg")
-5. Run robot -d Results Tests/FileUpload.robot to execute a single Test. Run robot -d Results Tests to execute all Tests.
-6. Go to Results folder to get the HTML Reports.
+4. Setting upload file for test data:  
+Open file ../Resources/PageObject/TestData/Testdata.py and Set AddFile variable to path of upload file (for example AddFile =  "C:/_STYL/Projects/UploadFileAutomation/Resources/Upload/rose.jpg")
+6. Run robot -d Results Tests/FileUpload.robot to execute a single Test. Run robot -d Results Tests to execute all Tests.
+7. Go to Results folder to get the HTML Reports.
