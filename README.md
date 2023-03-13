@@ -13,13 +13,21 @@ Using Jenkin to set up CI system and Jenkins' Robot Framework plugin (https://pl
 
 # How to start
 <h3> Installing Prequitsite software </h3>
-- Pycham (https://www.jetbrains.com/pycharm/download/#section=windows)
-- Intellibot (https://github.com/mtrubs/intellibot)
-- SeleniumLibrary: To install we have to use – pip3 install robotframework-seleniumlibrary.
 
-<h3> How to use automation test script </h3/
+- Python (https://www.python.org/downloads/)
+- Robot Framework :  To install we have to use - pip install robotframework
+- SeleniumLibrary: To install we have to use – pip3 install robotframework-seleniumlibrary.
+- Pycham (https://www.jetbrains.com/pycharm/download/#section=windows) 
+- Intellibot (https://github.com/mtrubs/intellibot)
+
+
+<h3> How to develope and use automation test scripSetupt Enn variable PATH to directory of Robot Framework </h3/
 
 1. Clone the project
 2. Import the Project in PyCharm
-3. Run robot -d Results Tests/FileUpload.robot to execute a single Test. Run robot -d Results Tests to execute all Tests.
-4. Go to Results folder to get the HTML Reports.
+3. Setupt Env variable PATH to directory of Robot Framework (sample dir: ..\Programs\Python\Python38\Scripts  )
+4. Setting upload file for test data:
+
+  
+5. Run robot -d Results Tests/FileUpload.robot to execute a single Test. Run robot -d Results Tests to execute all Tests.
+6. Go to Results folder to get the HTML Reports.
