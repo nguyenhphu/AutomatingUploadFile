@@ -1,3 +1,3 @@
-# Login Page Test Data
+# Upload Page Test Data
 AddFile = "C:/_STYL/Projects/UploadFileAutomation/Resources/Upload/rose.jpg"
 
