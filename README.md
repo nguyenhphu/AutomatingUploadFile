@@ -12,3 +12,14 @@ Applying Robot Framework Architecture. This framework is not only used for Web U
 Using Jenkin to set up CI system and Jenkins' Robot Framework plugin (https://plugins.jenkins.io/robot/) is also used for visualizing the test results.
 
 # How to start
+<h3> Installing Prequitsite software </h3>
+- Pycham (https://www.jetbrains.com/pycharm/download/#section=windows)
+- Intellibot (https://github.com/mtrubs/intellibot)
+- SeleniumLibrary: To install we have to use – pip3 install robotframework-seleniumlibrary.
+
+<h3> How to use automation test script </h3/
+
+1. Clone the project
+2. Import the Project in PyCharm
+3. Run robot -d Results Tests/FileUpload.robot to execute a single Test. Run robot -d Results Tests to execute all Tests.
+4. Go to Results folder to get the HTML Reports.
