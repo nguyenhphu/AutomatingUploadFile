@@ -1,4 +1,4 @@
-# UploadFileAutomation
+# Upload File Automation
 <h3> Summary </h3>
 
 This Test Plan is for automating the regression tests on upload features of this Website: https://demo.guru99.com/test/upload/
